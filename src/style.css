@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+/* Custom colors */
+
+@theme {
+  --color-pink: #eebbc3;
+  --color-marine: #b8c1ec;
+
+  /* font family */
+  --font-bitcount: "Bitcount Prop Double", system-ui;
+
+  /* Letter spacing */
+  --tracking-4: 0.1em;
+
+  /* Animation */
+
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+}
+
+/* Gruppierte Klassen */
+
+.hero-circle {
+  @apply rounded-full w-50 h-50 cursor-pointer;
+}
+
+.hero-circle:hover {
+  @apply hover:z-100
+}
