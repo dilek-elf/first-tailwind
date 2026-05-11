@@ -5,7 +5,7 @@ Focused on layout, typography, animations, and responsive design.
 
 ## 🌿 Preview
 
-landing.png
+<img width="1875" height="767" alt="image" src="landing.png />
 
 ## ✨ Features
 
