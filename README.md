@@ -5,7 +5,7 @@ Focused on layout, typography, animations, and responsive design.
 
 ## 🌿 Preview
 
-<img width="1875" height="767" alt="image" src="landing.png />
+<img src="./landing.png" alt="Nature Tours Hero" class="w-full h-screen object-cover">
 
 ## ✨ Features
 
